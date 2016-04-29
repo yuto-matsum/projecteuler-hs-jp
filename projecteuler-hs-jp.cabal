@@ -1,0 +1,19 @@
+name:                projecteuler-hs-jp
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/githubuser/projecteuler-hs-jp#readme
+license:             OtherLicense
+license-file:        LICENSE
+author:              yuto-matsum
+maintainer:          yuto-matsum@users.noreply.github.com
+copyright:           2016 yuto-matsum
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable 001
+  hs-source-dirs:      src
+  main-is:             001.lhs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
