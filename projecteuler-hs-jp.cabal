@@ -41,3 +41,18 @@ executable 023-step3
   main-is:             023-step3.lhs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+
+executable 027
+  hs-source-dirs:      src
+  main-is:             027.lhs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , containers
+
+executable 027-primes1
+  hs-source-dirs:      src
+  main-is:             027-primes1.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , containers
+                     , unix
