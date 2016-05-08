@@ -153,3 +153,5 @@ bを2から1000までの素数を大きい順で動かし、aをbに応じて`ma
 >   where
 >     longest = maximumBy (compare `on` snd)
 >     calc = uncurry (*) . fst
+
+計算時間は55秒くらい。
