@@ -18,11 +18,131 @@ executable 001
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
 
+executable 002
+  hs-source-dirs:      src
+  main-is:             002.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
 executable 003
   hs-source-dirs:      src
   main-is:             003.lhs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+
+executable 004
+  hs-source-dirs:      src
+  main-is:             004.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 005
+  hs-source-dirs:      src
+  main-is:             005.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 006
+  hs-source-dirs:      src
+  main-is:             006.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 007
+  hs-source-dirs:      src
+  main-is:             007.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 008
+  hs-source-dirs:      src
+  main-is:             008.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 009
+  hs-source-dirs:      src
+  main-is:             009.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 010
+  hs-source-dirs:      src
+  main-is:             010.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 011
+  hs-source-dirs:      src
+  main-is:             011.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 012
+  hs-source-dirs:      src
+  main-is:             012.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 013
+  hs-source-dirs:      src
+  main-is:             013.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 014
+  hs-source-dirs:      src
+  main-is:             014.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 015
+  hs-source-dirs:      src
+  main-is:             015.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 016
+  hs-source-dirs:      src
+  main-is:             016.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 017
+  hs-source-dirs:      src
+  main-is:             017.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 018
+  hs-source-dirs:      src
+  main-is:             018.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 019
+  hs-source-dirs:      src
+  main-is:             019.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, time
+
+executable 020
+  hs-source-dirs:      src
+  main-is:             020.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 021
+  hs-source-dirs:      src
+  main-is:             021.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 022
+  hs-source-dirs:      src
+  main-is:             022.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
 
 executable 023-step1
   hs-source-dirs:      src
@@ -42,6 +162,24 @@ executable 023-step3
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
 
+executable 024
+  hs-source-dirs:      src
+  main-is:             024.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 025
+  hs-source-dirs:      src
+  main-is:             025.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 026
+  hs-source-dirs:      src
+  main-is:             026.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
 executable 027
   hs-source-dirs:      src
   main-is:             027.lhs
@@ -57,14 +195,122 @@ executable 027-primes1
                      , containers
                      , unix
 
+executable 028
+  hs-source-dirs:      src
+  main-is:             028.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 029
+  hs-source-dirs:      src
+  main-is:             029.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 030
+  hs-source-dirs:      src
+  main-is:             030.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 031
+  hs-source-dirs:      src
+  main-is:             031.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
 executable 032
   hs-source-dirs:      src
   main-is:             032.lhs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
 
+executable 033
+  hs-source-dirs:      src
+  main-is:             033.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 034
+  hs-source-dirs:      src
+  main-is:             034.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 035
+  hs-source-dirs:      src
+  main-is:             035.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 036
+  hs-source-dirs:      src
+  main-is:             036.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 037
+  hs-source-dirs:      src
+  main-is:             037.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
 executable 038
   hs-source-dirs:      src
   main-is:             038.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 039
+  hs-source-dirs:      src
+  main-is:             039.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 040
+  hs-source-dirs:      src
+  main-is:             040.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 042
+  hs-source-dirs:      src
+  main-is:             042.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 045
+  hs-source-dirs:      src
+  main-is:             045.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 048
+  hs-source-dirs:      src
+  main-is:             048.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 052
+  hs-source-dirs:      src
+  main-is:             052.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 053
+  hs-source-dirs:      src
+  main-is:             053.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 056
+  hs-source-dirs:      src
+  main-is:             056.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 067
+  hs-source-dirs:      src
+  main-is:             067.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5

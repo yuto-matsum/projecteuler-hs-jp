@@ -1,0 +1,9 @@
+main=undefined
+l1to9 = ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]
+l10to19 = ["Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"]
+lTy = ["Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"]
+l20to99 = concat [l:map (\x->l++x) l1to9|l<-lTy]
+l1to99=l1to9++l10to19++l20to99
+l100to999 = concat [(l++"Hundred"):map (\x->l++"HundredAnd"++x) l1to99 | l<-l1to9]
+l1to1000 = l1to99++l100to999++["OneThousand"]
+answer n = sum $ map length (take n l1to1000)
