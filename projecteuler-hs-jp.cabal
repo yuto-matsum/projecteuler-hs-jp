@@ -68,3 +68,15 @@ executable 038
   main-is:             038.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+
+executable 041-primes
+  hs-source-dirs:      src
+  main-is:             041-primes.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
+
+executable 041
+  hs-source-dirs:      src
+  main-is:             041.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
