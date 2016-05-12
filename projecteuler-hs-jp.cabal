@@ -92,3 +92,9 @@ executable 044
   main-is:             044.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+
+executable 046
+  hs-source-dirs:      src
+  main-is:             046.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
