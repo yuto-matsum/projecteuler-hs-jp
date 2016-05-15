@@ -98,3 +98,15 @@ executable 046
   main-is:             046.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5, containers
+
+executable 047
+  hs-source-dirs:      src
+  main-is:             047.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
+
+executable 047-primeFactors
+  hs-source-dirs:      src
+  main-is:             047-primeFactors.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
