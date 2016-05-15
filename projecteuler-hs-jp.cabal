@@ -110,3 +110,9 @@ executable 047-primeFactors
   main-is:             047-primeFactors.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5, containers
+
+executable 049
+  hs-source-dirs:      src
+  main-is:             049.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
