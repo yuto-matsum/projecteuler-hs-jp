@@ -129,6 +129,12 @@ executable 051
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5, containers
 
+executable 054
+  hs-source-dirs:      src
+  main-is:             054.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
 executable 055
   hs-source-dirs:      src
   main-is:             055.hs
@@ -152,3 +158,75 @@ executable 058-improved
   main-is:             058-improved.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5, random, containers
+
+executable 059
+  hs-source-dirs:      src
+  main-is:             059.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, split
+
+executable 063
+  hs-source-dirs:      src
+  main-is:             063.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 069
+  hs-source-dirs:      src
+  main-is:             069.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 071
+  hs-source-dirs:      src
+  main-is:             071.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
+
+executable 076
+  hs-source-dirs:      src
+  main-is:             076.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers
+
+executable 079
+  hs-source-dirs:      src
+  main-is:             079.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 081
+  hs-source-dirs:      src
+  main-is:             081.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, split
+
+executable 092
+  hs-source-dirs:      src
+  main-is:             092.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 097
+  hs-source-dirs:      src
+  main-is:             097.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 099
+  hs-source-dirs:      src
+  main-is:             099.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 206
+  hs-source-dirs:      src
+  main-is:             206.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 357
+  hs-source-dirs:      src
+  main-is:             357.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, containers

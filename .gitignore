@@ -15,3 +15,10 @@ cabal.sandbox.config
 *.hp
 .stack-work/
 047-primeFactors.txt
+data/079-graph.dot
+data/079-graph.svg
+data/p054_poker.txt
+data/p059_cipher.txt
+data/p079_keylog.txt
+data/p081_matrix.txt
+data/p099_base_exp.txt
