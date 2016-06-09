@@ -230,3 +230,28 @@ executable 357
   main-is:             357.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5, containers
+
+executable 357i
+  hs-source-dirs:      src
+  main-is:             357i.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , containers
+
+executable 387
+  hs-source-dirs:      src
+  main-is:             387.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 493
+  hs-source-dirs:      src
+  main-is:             493.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable 549
+  hs-source-dirs:      src
+  main-is:             549.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
